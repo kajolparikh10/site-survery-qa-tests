@@ -7,7 +7,7 @@ This project demonstrates a streamlined Quality Assurance process focusing on AP
 
 ## Why I Built This
 Effective QA is about anticipating how systems might break in the real world. Drawing on my experience building data preprocessing pipelines and managing cross-functional technical projects, I developed this test suite to showcase how I approach:
-* **The "Happy Path":** Ensuring valid JSON payloads (e.g., active site locations, accurate soil pH levels) process correctly with a `201 Created` status.
+* **The Happy Path:** Ensuring valid JSON payloads (e.g., active site locations, accurate soil pH levels) process correctly with a `201 Created` status.
 * **Error Handling:** Validating that missing required fields (like a forgotten location) fail gracefully with descriptive `400 Bad Request` messages rather than crashing the system.
 * **Boundary Testing:** Catching physically impossible data inputs (such as a soil pH of 15.0) and ensuring the system returns a `422 Unprocessable Entity` error.
 
