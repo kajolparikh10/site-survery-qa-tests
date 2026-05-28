@@ -1,4 +1,4 @@
-# Environmental Site Survey API - QA Test Suite
+# Environmental Site Survey API QA Tester
 
 ## Overview
 A lightweight QA automation suite testing data validation and edge cases for an environmental site survey API, built with Python and pytest.
